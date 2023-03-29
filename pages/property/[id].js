@@ -5,7 +5,7 @@ import {GoVerified} from 'react-icons/go'
 import millify from 'millify'
 import ImageScrollbar from '../../components/ImageScrollbar'
 
-import {baseUrl, fetchApi} from '../../utils/fetchAPI'
+import {baseUrl, fetchApi} from '../../utils/fetchApi'
 
 const PropertyDetails = ({propertyDetails: {price, rooms, rentFrequency, isVerified, title, baths, area, agency, description, type, purpose, furnishingStatus,amenities, photos}}) => (
     <Box maxWidth='1000px' p='4' margin='auto'>
